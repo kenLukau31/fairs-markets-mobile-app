@@ -15,7 +15,7 @@ export default function TabLayout() {
         headerShown: false,
         tabBarButton: HapticTab,
         tabBarStyle: {
-          height: 110,
+          height: 90,
           paddingBottom: 30,
           paddingTop: 30,
           paddingLeft: 10,
@@ -31,7 +31,7 @@ export default function TabLayout() {
           tabBarIcon: ({ focused }) => (
           <View
             style={{
-              padding: 16,
+              padding: 14,
               borderRadius: 50,
               backgroundColor: focused ? 'rgba(250, 128, 114, 0.3)' : 'transparent'
             }}
@@ -40,8 +40,8 @@ export default function TabLayout() {
             <Image
               source={require('../../assets/navbar-icons/homepage-icon.png')}
               style={{
-                width: 32,
-                height: 32
+                width: 28,
+                height: 28
               }}
               resizeMode='contain'
             />
@@ -57,7 +57,7 @@ export default function TabLayout() {
           tabBarIcon: ({ focused }) => (
           <View
             style={{
-              padding: 16,
+              padding: 14,
               borderRadius: 50,
               backgroundColor: focused ? 'rgba(250, 128, 114, 0.3)' : 'transparent'
             }}
@@ -66,8 +66,8 @@ export default function TabLayout() {
             <Image
               source={require('../../assets/navbar-icons/map-icon.png')}
               style={{
-                width: 32,
-                height: 32
+                width: 28,
+                height: 28
               }}
               resizeMode='contain'
             />
@@ -83,7 +83,7 @@ export default function TabLayout() {
           tabBarIcon: ({ focused }) => (
           <View
             style={{
-              padding: 16,
+              padding: 14,
               borderRadius: 50,
               backgroundColor: focused ? 'rgba(250, 128, 114, 0.3)' : 'transparent'
             }}
@@ -92,8 +92,8 @@ export default function TabLayout() {
             <Image
               source={require('../../assets/navbar-icons/notes-icon.png')}
               style={{
-                width: 32,
-                height: 32
+                width: 28,
+                height: 28
               }}
               resizeMode='contain'
             />
@@ -109,7 +109,7 @@ export default function TabLayout() {
           tabBarIcon: ({ focused }) => (
           <View
             style={{
-              padding: 16,
+              padding: 14,
               borderRadius: 50,
               backgroundColor: focused ? 'rgba(250, 128, 114, 0.3)' : 'transparent'
             }}
@@ -118,8 +118,8 @@ export default function TabLayout() {
             <Image
               source={require('../../assets/navbar-icons/profile-icon.png')}
               style={{
-                width: 32,
-                height: 32
+                width: 28,
+                height: 28
               }}
               resizeMode='contain'
             />
