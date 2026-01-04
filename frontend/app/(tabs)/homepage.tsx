@@ -1,12 +1,14 @@
 import React,  { useState } from 'react';
 import { StyleSheet, Image, View, TouchableOpacity, FlatList, Text } from 'react-native';
 import { ThemedView } from '@/components/themed-view';
+import { categoryIcons } from './categoryIcons';
+import { GestureHandlerRootView } from 'react-native-gesture-handler';
 import SearchBarComponent from '@/components/homepage-components/SearchBar';
 import FairList from '@/components/homepage-components/FairList';
 import data from '../data/locations.json';
 import categories from '../data/categories.json';
-import { categoryIcons } from './categoryIcons';
-import { GestureHandlerRootView } from 'react-native-gesture-handler';
+
+
 
 // Object Definitions
 interface Person {
